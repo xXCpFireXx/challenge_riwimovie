@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1 id="appTitle">RIWI MOVIE</h1>
+    </div>
+
+    <div class="container">
+        <div class="search-input">
+            <input type="text" id="movieName" placeholder="Write the name of a movie" />
+            <a id="searchButton"><img src="./search-svgrepo-com.svg" alt=""></a>
+        </div>
+
+        <!-- Contenedor donde se mostrarán los resultados -->
+        <div id="movieResults"></div>
+
+       <!-- Modal -->
+        <div id="movieModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <img id="modalMoviePoster" src="" alt="Poster" />
+                <h2 id="modalMovieTitle"></h2>
+                <p id="modalMovieYear"></p>
+                <p id="modalMoviePlot"></p>
+                <p id="modalMovieGenre"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
