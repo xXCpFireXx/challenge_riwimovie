@@ -147,6 +147,8 @@ input:focus{
     color: white;
     font-weight: bold;
     height: 100%;
+    padding-bottom: 16px;
+    justify-self: end;
 }
 
 .movie-item p {
@@ -155,7 +157,7 @@ input:focus{
 }
 
 .movie-item:hover {
-    background-color: #f1f1f1;
+    background-color: #424242;
     transform: scale(1.05);
 }
 

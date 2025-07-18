@@ -1,4 +1,6 @@
-const apiKey = "d2d345e"; // Reemplaza con tu API Key de OMDb API
+const apiKey = import.meta.env.VITE_MOVIES_API;
+
+console.log(apiKey)
 
 document.getElementById("searchButton").addEventListener("click", (e) => {
   searchMovie();
