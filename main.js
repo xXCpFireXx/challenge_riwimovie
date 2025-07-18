@@ -56,6 +56,8 @@ async function searchMovie() {
 
       resultsContainer.appendChild(movieElement); // Añadir cada película al contenedor
     });
+
+    document.getElementById("movieName").value = "";
   } catch (error) {
     console.error("Error getting movie details:", error);
     alert("There was a problem getting the movie details");
